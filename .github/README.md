@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-serverlessapplicationrepository`](https://www.npmjs.com/package/@aws-sdk/client-serverlessapplicationrepository/v/3.197.0).
+[`@aws-sdk/client-serverlessapplicationrepository`](https://www.npmjs.com/package/@aws-sdk/client-serverlessapplicationrepository/v/3.198.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.197.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.198.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-eLr6CDWD+anWoh6j0UwWSGgT+0+E7R/c7q4puM5J1+M9CQNSz0H47lFfavc5OHLp
+sha384-qqxsGlHI1nY2fU36CG90aftjGnGuwNXCcvqlW//3ci2nyRmRfU4i4m2Ad4W4Z7rV
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-serverlessapplicationrepository": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.197.0/index.min.mjs"
+            "@aws-sdk/client-serverlessapplicationrepository": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.198.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.197.0/index.min.mjs": "sha384-eLr6CDWD+anWoh6j0UwWSGgT+0+E7R/c7q4puM5J1+M9CQNSz0H47lFfavc5OHLp"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.198.0/index.min.mjs": "sha384-qqxsGlHI1nY2fU36CG90aftjGnGuwNXCcvqlW//3ci2nyRmRfU4i4m2Ad4W4Z7rV"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-serverlessapplicationrepository": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.197.0/index.min.mjs"
+                        "@aws-sdk/client-serverlessapplicationrepository": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.198.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.197.0/index.min.mjs": "sha384-eLr6CDWD+anWoh6j0UwWSGgT+0+E7R/c7q4puM5J1+M9CQNSz0H47lFfavc5OHLp"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-serverlessapplicationrepository@3.198.0/index.min.mjs": "sha384-qqxsGlHI1nY2fU36CG90aftjGnGuwNXCcvqlW//3ci2nyRmRfU4i4m2Ad4W4Z7rV"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.197.0`)
+* Always pin to a specific version (`@3.198.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-serverlessapplicationrepository/blob/refs/tags/3.197.0/LICENSE
+https://github.com/cloud-sdk-builds/client-serverlessapplicationrepository/blob/refs/tags/3.198.0/LICENSE
 ```
 
 ---
